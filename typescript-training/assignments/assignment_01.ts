@@ -4,13 +4,13 @@ console.log(`1. Temperature of a city in degrees Celsius: ${temperature}`);
 
 // 2. Whether a customer has placed an order: true or false
 interface shoppingStatus {
-    isTrue : boolean ,
-    isFalse : boolean
+    isTrue: boolean,
+    isFalse: boolean
 }
 
 let orderPlaced: shoppingStatus = {
-    isTrue : true,
-    isFalse : false
+    isTrue: true,
+    isFalse: false
 }
 
 console.log(`2. Whether a customer has placed an order: ${orderPlaced.isTrue}`);
@@ -30,26 +30,26 @@ console.log(`5. Person's email address: ${emailId}`);
 
 // 6. Coordinates of a location (latitude, longitude): 37.7749, -122.4194
 interface coordinates {
-    latitude : number,
-    longitude : number
+    latitude: number,
+    longitude: number
 }
 
 let location: coordinates = {
-    latitude : 37.7749,
-    longitude : -122.4194
+    latitude: 37.7749,
+    longitude: -122.4194
 }
 
 console.log(`6. Coordinates of a location (latitude, longitude): ${location.latitude},${location.longitude}`);
 
 // 7. Person's marital status: true or false
 interface status {
-    isTrue : boolean ,
-    isFalse : boolean
+    isTrue: boolean,
+    isFalse: boolean
 }
 
 let marriageStatus: status = {
-    isTrue : true,
-    isFalse : false
+    isTrue: true,
+    isFalse: false
 }
 
 console.log(`7. Person's marital status: ${marriageStatus.isTrue}`);
