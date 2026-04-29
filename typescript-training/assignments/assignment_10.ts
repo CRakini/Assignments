@@ -1,4 +1,4 @@
-let prices: number[] = [7, 1, 5, 3, 6, 4];
+let prices: number[] = [1,6,4,3,10];
 
 let minPrice: number = prices[0]!;
 let maxProfit = 0;
@@ -15,4 +15,9 @@ for (const price of prices) {
     }
 }
 
-console.log(maxProfit);
+if(maxProfit == 0){
+    console.log("No profit obtained :", maxProfit);
+} else {
+    console.log("MaxProfit obtained :", maxProfit);
+}
+
